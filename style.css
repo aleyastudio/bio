@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+.content{
+    height: 100%;
+    width: 1260;
+}
+
+.content img{
+    width: 172.57px; 
+    height: 172.57px; 
+    border-radius: 9999px;
+    margin-top: 222.65px;
+    margin-left: 187.85px;
+}
+
+.first-text{
+    position: absolute;
+    top: 400px;
+    left: 194.76px;
+}
+
+.first-text h1{
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.first-text p{
+    margin-left: 35px;
+}
+
+.first-text h1{
+    height: 29px;
+}
+
+/* CONTENT 1 */
+.content-1{
+    position: absolute;
+    top: 84.04px;
+    left: 614.67px;
+}
+
+.content-1 a{
+    text-decoration: none;
+}
+
+.text-1{
+    margin-bottom: 60px;
+}
+
+.content-1 hr{
+    width: 538.12px
+    
+}
+
+.content-1 p{
+    color: black; 
+    font-size: 24px; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 500; 
+    text-transform: uppercase;
+}
+
+/* CONTENT 2 */
+.content-2 {
+    width: 630px;
+    overflow-x: auto;
+    margin-left: 630px;
+    margin-top: -120px;
+}
+
+.content-2::-webkit-scrollbar {
+    display: none;
+}
+
+.containers {
+    display: flex;
+    width: max-content;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    height: 284px;
+    width: 227px;
+    background-color: transparent;
+    border-radius: 23px;
+    border: 1px black solid;
+    margin-right: 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 2px;
+    text-align: center;
+}
+
+.card img {
+    width: 160px;
+    height: 144px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 15px;
+    border-radius: 0%;
+    margin-left: 2px;
+}
+
+.card h3 {
+    font-size: 17px;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    margin-top: 13px;
+    margin-bottom: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+.card a {
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: inherit;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+/* Tablets */
+@media (max-width: 820px) {
+    .content{
+        height: 610px;
+        width: 821px;
+        background-color: #f4f4f4;
+    }
+
+    .content img {
+        width: 172.57px;
+        height: 172.57px;
+        margin-top: 218.03px;
+        margin-left: 71.65px;
+    }
+
+    .first-text{
+        position: absolute;
+        top: 423.79px;
+        left: 78.56px;
+    }
+    
+    .first-text h1{
+        height: 29px;
+    }
+
+    /* CONTENT 1 */
+    .content-1{
+        position: absolute;
+        top: 84.04px;
+        left: 410px;
+    }
+
+    .content-1 a{
+        text-decoration: none;
+    }
+
+    .text-1{
+        margin-bottom: 60px;
+    }
+
+    .content-1 hr{
+        width: 387.28px
+    }
+
+    .content-1 p{
+        color: black; 
+        font-size: 24px; 
+        font-family: 'Inter', sans-serif;
+        font-weight: 500; 
+        text-transform: uppercase;
+    }
+
+    .text-1 p,
+    .text-2 p {
+        font-size: 20px;
+    }
+
+    /* CONTENT 2 */
+    .content-2 {
+        width: 409px;
+        overflow-x: auto;
+        margin-left: 410px;
+    }
+
+    .content-2::-webkit-scrollbar {
+        display: none;
+    }
+
+    .containers {
+        display: flex;
+        width: max-content;
+    }
+
+    .card {
+        display: flex;
+        position: relative;
+        height: 284px;
+        width: 227px;
+    }
+
+    .card img{
+        width: 160px;
+        height: 144px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 15px;
+        border-radius: 0%;
+        margin-left: 2px;
+    }
+    
+    .card h3{
+        margin-bottom: 15px;
+    }
+}
+
+/* Mobile Phone */
+@media (max-width: 430px) {
+    .content{
+        height: 932px;
+        width: 431px;
+        background-color: #f4f4f4;
+    }
+
+    .content img {
+        width: 172.57px;
+        height: 172.57px;
+        margin-top: 65px;
+        margin-left: 130px;
+    }
+
+    .first-text{
+        position: absolute;
+        top: 268.72px;
+        left: 128px;
+    }
+    
+    .first-text h1{
+        white-space: nowrap;
+    }
+    
+    .first-text p{
+        margin-left: 40px;
+    }
+    
+    .first-text h1{
+        height: 29px;
+    }
+
+    .content-1 {
+        position: absolute;
+        top: 410px;
+        left: 28.52px;
+    }
+    
+    .text-1{
+        margin-bottom: 60px;
+    }
+    
+    .content-1 hr{
+        width: 371px
+        
+    }
+    
+    .content-1 p{
+        color: black; 
+        font-size: 24px; 
+        font-family: 'Inter', sans-serif;
+        font-weight: 500; 
+        text-transform: uppercase;
+        top: 411px;
+        text-align: center;
+    }
+
+    /* CONTENT 2 */
+    .content-2 {
+        width: 407px;
+        overflow-x: auto;
+        margin-left: 14px;
+        margin-top: 370px;
+    }
+
+    .content-2::-webkit-scrollbar {
+        display: none;
+    }
+
+    .containers {
+        display: flex;
+        width: max-content;
+    }
+
+    .card {
+        display: flex;
+        position: relative;
+        height: 284px;
+        width: 227px;
+    }
+
+    .card img{
+        width: 160px;
+        height: 144px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-top: 15px;
+        border-radius: 0%;
+        margin-left: 2px;
+    }
+    
+    .card h3{
+        margin-bottom: 15px;
+    }
+}
+
